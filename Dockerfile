@@ -1,4 +1,4 @@
-FROM php:7.0-fpm
+FROM php:5.6-fpm
 
 COPY files/ioncube_loader_lin_7.0.so /opt/ioncube/
 COPY files/00-ioncube.ini /usr/local/etc/php/conf.d/
